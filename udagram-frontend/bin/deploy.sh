@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./www s3://front-end0966/
+aws s3 cp --recursive --acl public-read ./www s3://sultan-bucket714895289261/
