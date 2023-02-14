@@ -3,7 +3,7 @@ import { config } from "./config/config";
 
 // Configure AWS
 //const credentials = new AWS.SharedIniFileCredentials({ profile: "default" });
-
+//
 const credentials = new AWS.Credentials({
   accessKeyId: config.aws_access_key,
   secretAccessKey: config.aws_secret,
